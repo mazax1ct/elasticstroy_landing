@@ -1,0 +1,55 @@
+.block_4 {
+    display: flex;
+
+    &__container {
+        height: auto;
+        width: 100%;
+        @media(min-width: $sm) {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        max-width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 10px;
+        @media(min-width: $sm) {
+            padding: 0 0 0 20px;
+            width: 60%;
+        }
+        @media(min-width: $hd) {
+            max-width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .title {
+            margin-bottom: 30px;
+            @media(min-width: $sm) {
+                margin-bottom: 0;
+            }
+        }
+
+        p {
+            margin: auto;
+            max-width: 420px;
+        }
+    }
+
+    img {
+        @media(min-width: $sm) {
+            max-height: 720px;
+            margin-left: -10px;
+            object-fit: cover;
+            object-position: center;
+            width: 52%;
+        }
+        @media(min-width: $md) {
+            margin-left: -20px;
+        }
+    }
+}

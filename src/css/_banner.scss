@@ -1,0 +1,38 @@
+.banner {
+    background: url("../images/banner.jpg") no-repeat 50% 0 / cover transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 240px;
+    text-align: center;
+    @media(min-width: $hd) {
+        background-size: contain;
+        padding-top: 120px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 0.5em;
+        @media(min-width: $hd) {
+            font-size: 60px;
+        }
+
+        small {
+            display: block;
+            font-size: 50%;
+        }
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 1;
+        @media(min-width: $hd) {
+            font-size: 40px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+html {
+    scroll-padding: 50px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $bg-color;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow-x: hidden;
+
+    &.overflow {
+        overflow: hidden;
+    }
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.page-section {
+    min-height: 720px;
+}
+
+.container {
+    max-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media(min-width: $md) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,31 @@
+.form {
+    background-color: #fff;
+    display: none;
+    max-width: 500px;
+    padding: 20px;
+    width: 100%;
+
+    &.fancybox-content {
+        max-width: 500px;
+        padding: 20px;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 1;
+        margin-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}

@@ -13,6 +13,7 @@
         font-weight: 700;
         line-height: 1;
         padding: 10px;
+        text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         @media(min-width: $hd) {
@@ -34,6 +35,7 @@
         justify-content: center;
         height: 40px;
         min-width: 40px;
+        margin-left: 10px;
         order: 3;
         padding: 0;
         width: 40px;
@@ -51,6 +53,19 @@
         text-decoration: none;
         text-transform: uppercase;
         white-space: nowrap;
+    }
+
+    &__button {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        height: 34px;
+        margin-left: auto;
+        padding: 5px 10px;
+        text-transform: uppercase;
     }
 }
 

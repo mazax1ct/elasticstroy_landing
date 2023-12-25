@@ -5,16 +5,15 @@
     padding-bottom: 60px;
     text-align: center;
     @media(min-width: $sm) {
-        background-size: cover;
+        //background-size: cover;
         min-height: 720px;
         padding-top: 20px;
         padding-bottom: 0;
         text-align: left;
     }
-    @media(min-width: $hd) {
+    /*@media(min-width: $hd) {
         background-size: contain;
-    }
-
+    }*/
     &__text {
         margin-left: auto;
         margin-right: auto;

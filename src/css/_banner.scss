@@ -1,12 +1,12 @@
 .banner {
-    background: url("../images/banner.jpg") no-repeat 50% 0 / cover transparent;
+    background: url("../images/banner.jpg") no-repeat 50% 0 / auto 100% transparent;
     color: #fff;
     display: flex;
     justify-content: center;
     padding-top: 240px;
     text-align: center;
     @media(min-width: $hd) {
-        background-size: contain;
+        //background-size: contain;
         padding-top: 120px;
     }
 
